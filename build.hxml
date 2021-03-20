@@ -1,0 +1,6 @@
+-cp src
+-D analyzer-optimize
+-main Main
+-dce full
+--macro Macro.gen()
+--no-output
